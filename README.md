@@ -2,8 +2,8 @@
 
 Written with python 3.7.3
 
-The 'identifiers', 'rxn_data', and 'descriptors' excel files contain information on the kraken phosphorus ligand library (https://chemrxiv.org/engage/chemrxiv/article-details/60c757f9702a9bdb7018cbd4).
+The 'gen_identifiers', 'gen_rxn_data', and 'gen_descriptors' excel files contain information on the kraken phosphorus ligand library (https://chemrxiv.org/engage/chemrxiv/article-details/60c757f9702a9bdb7018cbd4). and the ligands employed in the study described in https://pubs.acs.org/doi/full/10.1021/jacs.1c08399.
 
-linear_regression_14_1_22.ipynb contains code for univariate correlations and predictive workflow employing forward stepwise linear regression. Requires 'ForwardStepCandidates_updated.py' and 'loo_q2.py'
+gen_linear_regression.ipynb: code for univariate correlations and a predictive workflow employing forward stepwise linear regression. Requires 'ForwardStepCandidates_updated.py' and 'loo_q2.py'.
 
-ensemble_linear_regression_14_1_22.ipynb contains code for modelling using an ensemble of linear regression models. Requires 'ForwardStepCandidates_updated.py' and 'loo_q2.py'
+gen_threshold_and_multidescriptor_plot.ipynb: code for the threshold analysis and visualization of stereoelectronic space.
